@@ -7,13 +7,13 @@ The course work is based on the data set provided by the [UCI Machine Learning R
 ### Description of the files
 
 * run_analysis.R: Main script to process the data from above source:
-	** Download the data set from source if not existant
-	** Unzip all files if necessary
-	** Merges the training and the test sets to create one data set.
-	** Extracts only the measurements on the mean and standard deviation for each measurement.
-	** Uses descriptive activity names to name the activities in the data set
-	** Appropriately labels the data set with descriptive variable names. 
-	** Create tidy data set with the average of each variable for each activity and each subject.
+	* Download the data set from source if not existant
+	* Unzip all files if necessary
+	* Merges the training and the test sets to create one data set.
+	* Extracts only the measurements on the mean and standard deviation for each measurement.
+	* Uses descriptive activity names to name the activities in the data set
+	* Appropriately labels the data set with descriptive variable names. 
+	* Create tidy data set with the average of each variable for each activity and each subject.
 * tidy.txt: Output of the script as requested on the Coursera submission page: Created with write.table() using row.name=FALSE
 * CodeBook.md: Code book for the tidy data set. Code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
 
